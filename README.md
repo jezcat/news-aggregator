@@ -45,7 +45,6 @@ Created by jezcat.
 1. Clone the repository:
    ```
    git clone https://github.com/jezcat/news-aggregator.git
-   cd news-aggregator
    ```
 
 2. Install dependencies:
@@ -60,6 +59,7 @@ Optional: if you plan to use other libraries, list them in a requirements.txt fi
 
 Run the script with:
 ```
+cd news-aggregator
 python news.py
 ```
 The script will fetch the latest articles and display them in the console.
