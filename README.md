@@ -44,7 +44,7 @@ Created by jezcat.
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/news-aggregator.git
+   git clone https://github.com/jezcat/news-aggregator.git
    cd news-aggregator
    ```
 
