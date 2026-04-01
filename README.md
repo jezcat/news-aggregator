@@ -50,7 +50,7 @@ Created by jezcat.
 
 2. Install dependencies:
    ```
-   pip install -r requirements.txt
+   pip install feedparser
    ```
 
 ## Usage
