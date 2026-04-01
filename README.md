@@ -52,13 +52,17 @@ Created by jezcat.
    ```
    pip install feedparser
    ```
-
+Optional: if you plan to use other libraries, list them in a requirements.txt file and install with:
+   ```
+ pip install -r requirements.txt
+   ```
 ## Usage
 
 Run the script with:
 ```
 python news.py
 ```
+The script will fetch the latest articles and display them in the console.
 
 Customize the sources by editing the feeds dictionary in the script.
 
