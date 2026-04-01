@@ -1,1 +1,2 @@
-feedparser
+py install feedparser
+py install socket
