@@ -51,10 +51,7 @@ Created by jezcat.
    ```
    pip install feedparser
    ```
-Optional: if you plan to use other libraries, list them in a requirements.txt file and install with:
-   ```
- pip install -r requirements.txt
-   ```
+
 ## Usage
 
 Run the script with:
