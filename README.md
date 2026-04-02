@@ -50,6 +50,8 @@ Created by jezcat.
 2. Install dependencies:
    ```
    pip install feedparser
+   pip install colorama
+   pip install beautifulsoup4
    ```
 
 ## Usage
