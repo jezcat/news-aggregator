@@ -1,1 +1,3 @@
-py install feedparser
+feedparser
+colorama
+beautifulsoup4
