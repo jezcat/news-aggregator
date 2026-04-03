@@ -1,8 +1,22 @@
+ /\_/\  
+( o.o )
+ > ^ <
+______________________________________________________________________________
+
 # News-Cat News Website Aggregator
 
 A Python script that scans multiple news sites and aggregates the latest headlines and articles.
 
-Created by jezcat.
+Created by jezcat. 
+  
+ 
+   __     ______     ______     ______     ______     ______ 
+  /\ \   /\  ___\   /\___  \   /\  ___\   /\  __ \   /\__  _\
+ _\_\ \  \ \  __\   \/_/  /__  \ \ \____  \ \  __ \  \/_/\ \/
+/\_____\  \ \_____\   /\_____\  \ \_____\  \ \_\ \_\    \ \_\
+\/_____/   \/_____/   \/_____/   \/_____/   \/_/\/_/     \/_/
+
+______________________________________________________________________________
 
 ## Features
 
@@ -10,6 +24,8 @@ Created by jezcat.
 - Aggregates headlines and summaries
 - Supports customizable sources
 - Outputs results in a readable format
+
+______________________________________________________________________________
 
 ## News Sources
 
@@ -40,6 +56,8 @@ Created by jezcat.
 | Janes | None | Defense analysis (subscription required, no RSS) |
 | San.com | None | Placeholder site (no RSS) |
 
+______________________________________________________________________________
+
 ## Installation
 
 1. Clone the repository:
@@ -54,6 +72,8 @@ Created by jezcat.
    pip install beautifulsoup4
    ```
 
+______________________________________________________________________________
+
 ## Usage
 
 Run the script with:
@@ -64,6 +84,8 @@ python news.py
 The script will fetch the latest articles and display them in the console.
 
 Customize the sources by editing the feeds dictionary in the script.
+
+______________________________________________________________________________
 
 ## Customization
 
@@ -80,6 +102,8 @@ Add the keywords you want to include.
 The script will only show articles whose titles contain at least one of these keywords (case-insensitive).
 
 To see all articles regardless of keywords, set the keyword list to empty (`KEYWORDS = []`) or enable a `SHOW_ALL` flag if your script has one.
+
+______________________________________________________________________________
 
 ### Adding or Removing News Sources
 
@@ -98,12 +122,19 @@ To add a new source, add a new entry with the site name, RSS feed URL, and a sho
 To remove a source, simply delete or comment out its entry.
 
 If a site has no RSS feed, use `None` as the URL, but those sources will be skipped unless you implement custom scraping.
+______________________________________________________________________________
 
 ## Requirements
 
 - Python 3.8+
 - Libraries listed in requirements.txt (e.g., feedparser)
 
+______________________________________________________________________________
+
 ## Contributing
 
 Feel free to submit issues and pull requests. 
+
+ /\_/\  
+( o.o )
+ > ^ <   
