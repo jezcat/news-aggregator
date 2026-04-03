@@ -1,4 +1,4 @@
-# News Aggregator
+# News-Cat News Website Aggregator
 
 A Python script that scans multiple news sites and aggregates the latest headlines and articles.
 
